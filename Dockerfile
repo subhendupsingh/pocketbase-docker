@@ -16,6 +16,9 @@ RUN unzip /tmp/pb.zip -d /pb/
 # uncomment to copy the local pb_hooks dir into the image
 # COPY ./pb_hooks /pb/pb_hooks
 
+# uncomment to copy the local pb_data dir into the image
+# COPY ./pb_data /pb/pb_data
+
 EXPOSE 8080
 
 # start PocketBase
